@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+}
+.dt-button, .btn  {
+    border-radius: 5px !important;
+    background: none !important;
+    background: #212529 !important;
+    color: white !important;
+    font-size: 10px !important;
+}
+.buttons-excel{
+     background: red !important;
+}
+.buttons-pdf{
+     background:  green !important;
+}
+.buttons-print{
+     background: #ff3300 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    border-radius: 5px !important;
+    background: none !important;
+    background: #1088ff !important;
+    color: white !important;
+}
+.dataTables_paginate,.paginate_button.current,.dataTables_info
+{
+    font-size: 14px;
+    padding: 2px !important;
+}
+thead th {
+    height: 20px !important;
+    font-size: 12px !important;
+     background: #1088ff !important;
+     color: white !important;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+table td {
+      font-family: 'Roboto', sans-serif !important;
+      font-size: .85rem !important;
+
+}
+i {
+    font-size: .85rem !important;
+
+    padding: 3px;
+    margin-right: 3px;
+}
+i:hover {
+
+    color: black  !important;
+    cursor: pointer;
+}
+.dataTables_filter input {
+    height: 30px;
+    padding: 5px !important;
+    border-radius: 10px !important;
+}
+
+.dataTables_length select {
+    height: 30px;
+    padding: 2px !important;
+    border-radius: 5px !important;
+}
+.btn-custom {
+    background: #ff0eef !important;
+}
